@@ -1,0 +1,61 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header starts here */
+header{
+    background-color: #264653;
+}
+
+header p{
+    font-weight: 300;
+    font-size: 14px;
+}
+
+/* header ends here */
+/* featured section starts */
+
+.featured .small-text{
+    color: #E76F51;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.featured img{
+    width: 290px;
+    height: 240px;
+}
+
+.featured .g-scale img{
+    filter: grayscale(1);
+}
+
+/* featured section ends */
+/* client section starts */
+
+.card .card-img img{
+    width: 150px;
+    height: 150px;
+}
+
+
+.card-body .name{
+    font-size: 14px;
+    color: #23A6F0;
+}
+
+.card i,
+h1 span{
+    color: #E76F51;
+}
+
+/* client section ends */
+/* Showoff-bike section starts */
+
+.left-part{
+    background-color: rgba(41, 63, 71, 0.329);
+}
+/* Showoff-bike section ends */
